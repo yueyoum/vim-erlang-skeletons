@@ -9,7 +9,7 @@ INTRODUCTION
 This plugin provides a quick access to Erlang templates, such as gen_server,
 get_event etc.
 
-The default templates are ripped out of emacs.
+The default templates are ripped out of emacs and slightly modified.
 
 This plugin requires your vim to be compiled with Python support.
 
@@ -22,8 +22,8 @@ plugin.
 ALTERNATE VERSION (VimL)
 ------------------------
 
-If you don't like the idea of having Python installed, there's a pure VimL 
-fork here: https://github.com/jimenezrick/vimerl/tree/master/plugin 
+If you don't like the idea of having Python installed, there's a pure VimL
+fork here: https://github.com/jimenezrick/vimerl/tree/master/plugin
 
 COMMANDS
 --------
