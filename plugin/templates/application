@@ -18,10 +18,10 @@
      StartArgs = term()
 start(_StartType, _StartArgs) ->
     case 'TopSupervisor':start_link() of
-            {ok, Pid} ->
-                    {ok, Pid};
-            Error ->
-                    Error
+        {ok, Pid} ->
+            {ok, Pid};
+        Error ->
+            Error
     end.
 
 %% @private

@@ -84,7 +84,7 @@ state_name(_Event, _From, State) ->
                   {next_state, NextStateName, NextState, Timeout} |
                   {stop, Reason, NewState}
 handle_event(_Event, StateName, State) ->
-        {next_state, StateName, State}.
+    {next_state, StateName, State}.
 
 %% @private
 %% @doc

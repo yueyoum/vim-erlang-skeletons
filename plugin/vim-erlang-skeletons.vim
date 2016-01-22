@@ -21,7 +21,8 @@ tpl = os.path.join(tpl_dir, tpl_file)
 with open(tpl, "r") as f:
     output = f.read()
 
-vim.current.buffer.append(output.split("\n"), 0)
+row, col = vim.current.window.cursor
+vim.current.buffer.append(output.split("\n"), row-1)
 vim.command("set filetype=erlang")
 
 EOF

@@ -58,8 +58,8 @@ handle_event(_Event, State) ->
                   {swap_handler, Reply, Args1, State1, Mod2, Args2} |
                   {remove_handler, Reply}
 handle_call(_Request, State) ->
-        Reply = ok,
-        {ok, Reply, State}.
+    Reply = ok,
+    {ok, Reply, State}.
 
 %% @private
 %% @doc
